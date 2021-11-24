@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
       <div style={styles.container}>
         <h1 style={{fontSize: 24, marginLeft: 15}}>
-          Introduction To Diagramming
+          Basics of Diagramming
         </h1>
         <p style={styles.p}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

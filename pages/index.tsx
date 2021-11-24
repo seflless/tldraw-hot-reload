@@ -64,7 +64,7 @@ const Home: NextPage = () => {
         <h2 style={styles.h2}>
           Flow Chart
         </h2>
-        <img style={styles.svg1} src={mindMap.src}/>
+        <img style={styles.svg1} src={flowChart.src}/>
         
       </div>
 

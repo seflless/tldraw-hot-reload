@@ -10,23 +10,26 @@ const Home: NextPage = () => {
 
   const styles = {
     container: {
-      width:370, 
+      width:470, 
+      padding: "0px 10px",
       marginLeft: 10
     },
     p: {
-      fontSize: 12, 
-      marginLeft: 15
+      fontSize: 14, 
+      marginLeft: 20
     },
     h1: {
-      fontSize: 20, 
-      marginLeft: 15
+      marginTop: 20,
+      fontSize: 22, 
+      marginLeft: 20
     },
     h2: {
-      fontSize: 12, 
-      marginLeft: 15
+      marginTop: 10,
+      fontSize: 16, 
+      marginLeft: 20
     },
     svg1: {
-      width: 370
+      width: 450
     }
   }
   
@@ -41,16 +44,16 @@ const Home: NextPage = () => {
 
 
       <div style={styles.container}>
-        <h1 style={{fontSize: 24, marginLeft: 15}}>
+        <h1 style={styles.h1}>
           Basics of Diagramming
         </h1>
         <p style={styles.p}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </p>
         <h2 style={styles.h2}>
-          Venn Diagrams
+        Flow Chart
         </h2>
-        <img style={styles.svg1} src={vennDiagram.src}/>
+        <img style={styles.svg1} src={flowChart.src}/>
         <p style={styles.p}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
         </p>
@@ -62,9 +65,9 @@ const Home: NextPage = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  
         </p>
         <h2 style={styles.h2}>
-          Flow Chart
+          Venn Diagrams
         </h2>
-        <img style={styles.svg1} src={flowChart.src}/>
+        <img style={styles.svg1} src={vennDiagram.src}/>
         
       </div>
 
